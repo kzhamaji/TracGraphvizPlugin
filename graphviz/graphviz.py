@@ -173,7 +173,7 @@ class Graphviz(Component):
 
 
     def __init__(self):
-        self.log.info('version: %s - id: %s' % (__version__, str(__id__)))
+        self.log.debug('version: %s - id: %s' % (__version__, str(__id__)))
         #self.log.info('processors: %s' % str(Graphviz.Processors))
         #self.log.info('formats: %s' % str(Graphviz.Formats))
 
